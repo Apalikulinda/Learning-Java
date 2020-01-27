@@ -17,8 +17,8 @@ public class addRemoveElementsTesting {
 		buttonAdd.click();
 
 		//WebElement removes object
-		//WebElement buttonDelete = driver.findElement(By.cssSelector(".added-manually"));
-		WebElement buttonDelete = driver.findElement(By.xpath("/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/button[1]"));
+		WebElement buttonDelete = driver.findElement(By.cssSelector(".added-manually"));
+		//WebElement buttonDelete = driver.findElement(By.xpath("/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/button[1]"));
 
 
 		String buttonDeleteText = buttonDelete.getText();
