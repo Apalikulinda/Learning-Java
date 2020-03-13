@@ -32,7 +32,7 @@ public class checkBoxes {
 		Assert.assertTrue(option2.isSelected(), "The second checkbox is toggled off");
 		Assert.assertFalse(option2.isSelected(), "The second checkbox is toggled on");
 		*/
-		 
+
 
 		/*
 		if (option2.isDisplayed()) {
